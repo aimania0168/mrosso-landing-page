@@ -112,6 +112,20 @@ body {
     transform: rotateY(-5deg) rotateX(5deg);
 }
 
+.ebook-cover-img {
+    width: 280px;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    transform: rotateY(5deg) rotateX(-5deg);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.ebook-cover-img:hover {
+    transform: rotateY(-5deg) rotateX(5deg);
+}
+
 .book-title {
     font-size: 24px;
     font-weight: 700;
